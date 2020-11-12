@@ -26,7 +26,7 @@
       "uuid": "^8.3.1"
    },
    "scripts": {
-      "dev": "tsnd --transpile-only --ignore-watch node_modules src/server.ts",
+      "start": "tsnd --transpile-only --ignore-watch node_modules src/server.ts",
       "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
    }
 }
